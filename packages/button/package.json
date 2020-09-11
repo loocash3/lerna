@@ -1,0 +1,24 @@
+{
+  "name": "@tt/button",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "lukasztoporek-nettbutikk <58420165+lukasztoporek-nettbutikk@users.noreply.github.com>",
+  "homepage": "https://github.com/loocash3/lerna#readme",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loocash3/lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "webpack --mode=production --output-library-target=commonjs2 -o lib/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/loocash3/lerna/issues"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
